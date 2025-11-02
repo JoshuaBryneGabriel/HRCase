@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\models\\approval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\views\\bulk\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\views\\bulk\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\controllers\\bulkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\controllers\\bulkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\hrcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\hrcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|c:\\users\\joshua.gabriel\\documents\\visual studio 2022\\hrcase\\hrcase\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{010A9CBF-3AF9-4698-A45A-640A697C808D}|HRCase\\HRCase.csproj|solutionrelative:hrcase\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Approval.cs",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Models\\Approval.cs",
+              "RelativeDocumentMoniker": "HRCase\\Models\\Approval.cs",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Models\\Approval.cs",
+              "RelativeToolTip": "HRCase\\Models\\Approval.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:55:50.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRCase\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HRCase\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T14:55:00.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Views\\Bulk\\Upload.cshtml",
+              "RelativeDocumentMoniker": "HRCase\\Views\\Bulk\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Views\\Bulk\\Upload.cshtml",
+              "RelativeToolTip": "HRCase\\Views\\Bulk\\Upload.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T11:53:52.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BulkController.cs",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Controllers\\BulkController.cs",
+              "RelativeDocumentMoniker": "HRCase\\Controllers\\BulkController.cs",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Controllers\\BulkController.cs",
+              "RelativeToolTip": "HRCase\\Controllers\\BulkController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:50:51.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExcelService.cs",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Services\\ExcelService.cs",
+              "RelativeDocumentMoniker": "HRCase\\Services\\ExcelService.cs",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Services\\ExcelService.cs",
+              "RelativeToolTip": "HRCase\\Services\\ExcelService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:31:30.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HRCase",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\HRCase.csproj",
+              "RelativeDocumentMoniker": "HRCase\\HRCase.csproj",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\HRCase.csproj",
+              "RelativeToolTip": "HRCase\\HRCase.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-28T10:31:00.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Program.cs",
+              "RelativeDocumentMoniker": "HRCase\\Program.cs",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Program.cs",
+              "RelativeToolTip": "HRCase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:51:09.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HRCase\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "HRCase\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:48:58.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

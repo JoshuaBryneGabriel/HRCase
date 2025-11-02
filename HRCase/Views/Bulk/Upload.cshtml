@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Bulk Upload";
+}
+<h3>Bulk Upload</h3>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<form asp-controller="Bulk" asp-action="UploadFile" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="file" class="form-label">Upload Excel (.xlsx) — columns: EmployeeCode, FullName, Department, Position, Status</label>
+        <input class="form-control" type="file" name="file" id="file" />
+    </div>
+    <button class="btn btn-primary" type="submit">Upload</button>
+</form>
+
+<hr/>
+
+<h5>Download Data</h5>
+<form method="get" asp-controller="Bulk" asp-action="DownloadData">
+    <div class="mb-3">
+        <label class="form-label">Department (optional)</label>
+        <input name="department" class="form-control" />
+    </div>
+    <button class="btn btn-secondary">Download</button>
+</form>
