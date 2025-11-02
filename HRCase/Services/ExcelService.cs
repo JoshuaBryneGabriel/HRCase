@@ -16,8 +16,6 @@ namespace HRCase.Services
         public ExcelService(AppDbContext db)
         {
             _db = db;
-            // EPPlus license context
-            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial; // change to Commercial appropriately
         }
 
         public async Task<(int inserted, int skipped)> ImportEmployeesFromExcelAsync(Stream excelStream)

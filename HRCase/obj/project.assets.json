@@ -3377,23 +3377,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joshua.gabriel\\.nuget\\packages\\": {},
+    "C:\\Users\\Joshua Gabriel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\HRCase.csproj",
+      "projectUniqueName": "C:\\Users\\Joshua Gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\HRCase.csproj",
       "projectName": "HRCase",
-      "projectPath": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\HRCase.csproj",
-      "packagesPath": "C:\\Users\\joshua.gabriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshua.gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\obj\\",
+      "projectPath": "C:\\Users\\Joshua Gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\HRCase.csproj",
+      "packagesPath": "C:\\Users\\Joshua Gabriel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joshua Gabriel\\Documents\\Visual Studio 2022\\HRCase\\HRCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\joshua.gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joshua Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

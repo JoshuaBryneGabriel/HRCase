@@ -1,5 +1,86 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Disciplinary Cases";
+    ViewData["ActivePage"] = "DisciplinaryCases";
+    ViewData["FullWidth"] = true; 
+    Layout = "_Layout"; // prefer short name so _ViewStart or the view engine resolves ~/Views/Shared/_Layout.cshtml
+}
+
+<div class="container-fluid mt-3">
+
+    <!-- Search and Create Button -->
+    <div class="d-flex justify-content-between align-items-center mb-2">
+        <div class="input-group" style="max-width: 300px;">
+            <span class="input-group-text">
+                <i class="bi bi-search"></i>
+            </span>
+            <input type="text" id="searchBox" class="form-control" placeholder="Search..." onkeyup="filterTable()" />
+        </div>
+        <a asp-action="Create" class="btn btn-primary">Create New CF</a>
+    </div>
+
+    <div>
+        <p class="text-muted">Record/s: <span id="recordCount">300</span></p>
+    </div>
+
+    <!-- Data Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped align-middle" id="caseTable">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th>Action</th>
+                    <th>CaseID</th>
+                    <th>COC_General_Provision</th>
+                    <th>Employee_Name</th>
+                    <th>Department</th>
+                    <th>Designation</th>
+                    <th>Sender</th>
+                    <th>Status</th>
+                    <th>Current</th>
+                    <th>StatusDate</th>
+                    <th>Date_Created</th>
+                    <th>Manage</th>
+                </tr>
+            </thead>
+            <tbody id="caseBody">
+                <!-- Example Row -->
+                <tr>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">Select</a>
+                    </td>
+                    <td><strong>SG363448_0044114</strong></td>
+                    <td>Attendance and Punctuality</td>
+                    <td>Ladores, Caesy</td>
+                    <td>Aetna PHP Iloilo</td>
+                    <td>Trainee Customer Service Representative</td>
+                    <td>Baldostamon, Trisha</td>
+                    <td>
+                        <span class="badge bg-success p-2">On Going</span>
+                    </td>
+                    <td><strong>Pending Approval from Secondary Reportee</strong></td>
+                    <td>10/13/2025</td>
+                    <td>10/13/2025</td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-secondary">Edit</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        // Simple client-side search function
+        function filterTable() {
+            var input = document.getElementById("searchBox");
+            var filter = input.value.toLowerCase();
+            var rows = document.querySelectorAll("#caseBody tr");
+
+            rows.forEach(row => {
+                var text = row.textContent.toLowerCase();
+                row.style.display = text.includes(filter) ? "" : "none";
+            });
+        }
+    </script>
 }

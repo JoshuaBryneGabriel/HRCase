@@ -1,16 +1,21 @@
 using HRCase.Services;
 using Microsoft.EntityFrameworkCore;
+using OfficeOpenXml;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<ExcelService>();
+
+ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
+
 builder.Services.AddDbContext<HRCase.Data.AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection") ?? throw new InvalidOperationException("Connection string 'HRCaseContext' not found.")));
 var app = builder.Build();
 
-//builder.Services.AddScoped<ExcelService>();
+
 
 
 // Configure the HTTP request pipeline.
