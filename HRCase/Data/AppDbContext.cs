@@ -9,15 +9,20 @@
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<DisciplinaryCase> DisciplinaryCases { get; set; }
-        public DbSet<Approval> Approvals { get; set; }
+        // Added DbSets for the imported tables
+        public DbSet<TblEmpLog> TblEmpLogs { get; set; }
+        public DbSet<ENTblData> ENTblDatas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Employee>()
-                .HasIndex(e => e.EmployeeCode)
-                .IsUnique();
+
+
+            // Map ENTblData.EmpId (string) to TblEmpLog.EmpId (string) as the principal key
+            modelBuilder.Entity<TblEmpLog>()
+                .HasMany(t => t.DisciplinaryCases)
+                .WithOne(d => d.Employee)
+                .HasForeignKey(d => d.EmpId)
+                .HasPrincipalKey(t => t.EmpId);
 
             // Consider adding additional configurations here based on your models
             // For example, relationships between DisciplinaryCase, Employee, and Approval

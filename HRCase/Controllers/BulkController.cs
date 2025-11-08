@@ -33,19 +33,12 @@ namespace HRCase.Controllers
             }
 
             using var stream = file.OpenReadStream();
-            var (inserted, skipped) = await _excelService.ImportEmployeesFromExcelAsync(stream);
+            var (inserted, skipped) = await _excelService.ImportTblEmpLogFromExcelAsync(stream);
 
             TempData["Message"] = $"Inserted: {inserted}, Skipped: {skipped}";
             return RedirectToAction("Upload");
         }
 
-        [HttpGet]
-        public async Task<IActionResult> DownloadData(string department = null)
-        {
-            // TODO: filter department by approver permissions before calling export
-            var bytes = await _excelService.ExportEmployeesToExcelAsync(department);
-            return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "employees.xlsx");
-        }
     }
 
 }

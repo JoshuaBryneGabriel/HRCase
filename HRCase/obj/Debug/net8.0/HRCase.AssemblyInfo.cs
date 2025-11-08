@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HRCase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32765b7c5e054f8bc5ee4b4b30d75df91cff77b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c4e285401d97d5953d47446a7a5934e26bc6e3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HRCase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HRCase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,9 @@
-﻿@{
+﻿@model IEnumerable<HRCase.Models.ENTblData>
+@{
     ViewData["Title"] = "Disciplinary Cases";
     ViewData["ActivePage"] = "DisciplinaryCases";
-    ViewData["FullWidth"] = true; 
-    Layout = "_Layout"; // prefer short name so _ViewStart or the view engine resolves ~/Views/Shared/_Layout.cshtml
+    ViewData["FullWidth"] = true;
+    Layout = "_Layout";
 }
 
 <div class="container-fluid mt-3">
@@ -19,7 +20,7 @@
     </div>
 
     <div>
-        <p class="text-muted">Record/s: <span id="recordCount">300</span></p>
+        <p class="text-muted">Record/s: <span id="recordCount">@(Model?.Count() ?? 0)</span></p>
     </div>
 
     <!-- Data Table -->
@@ -42,27 +43,29 @@
                 </tr>
             </thead>
             <tbody id="caseBody">
-                <!-- Example Row -->
-                <tr>
-                    <td>
-                        <a href="#" class="btn btn-sm btn-primary">Select</a>
-                    </td>
-                    <td><strong>SG363448_0044114</strong></td>
-                    <td>Attendance and Punctuality</td>
-                    <td>Ladores, Caesy</td>
-                    <td>Aetna PHP Iloilo</td>
-                    <td>Trainee Customer Service Representative</td>
-                    <td>Baldostamon, Trisha</td>
-                    <td>
-                        <span class="badge bg-success p-2">On Going</span>
-                    </td>
-                    <td><strong>Pending Approval from Secondary Reportee</strong></td>
-                    <td>10/13/2025</td>
-                    <td>10/13/2025</td>
-                    <td>
-                        <a href="#" class="btn btn-sm btn-secondary">Edit</a>
-                    </td>
-                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-primary">Select</a>
+                        </td>
+                        <td><strong>@item.AutoId</strong></td>
+                        <td>@item.COCGeneralProvision</td>
+                        <td>@(item.Employee != null ? $"{item.Employee.LastName}, {item.Employee.FirstName}" : item.EmpId)</td>
+                        <td>@item.Department</td>
+                        <td>@item.Designation</td>
+                        <td>@item.Sender</td>
+                        <td>
+                            <span class="badge bg-success p-2">@item.Status</span>
+                        </td>
+                        <td><strong>@item.CurrentStatus</strong></td>
+                        <td>@item.StatusDate?.ToString("MM/dd/yyyy")</td>
+                        <td>@item.DateCFCreatedByPR?.ToString("MM/dd/yyyy")</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-secondary">Edit</a>
+                        </td>
+                    </tr>
+                }
             </tbody>
         </table>
     </div>
